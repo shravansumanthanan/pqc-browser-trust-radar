@@ -1,0 +1,32 @@
+{
+  "name": "pqc-browser-trust-radar",
+  "version": "1.0.0",
+  "description": "Quantum-Agile Ephemeral Privacy Browser with Hardware-Attested Memory Sanitization & Cryptographic Observability",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npx node-gyp rebuild",
+    "test": "node --test"
+  },
+  "keywords": [
+    "post-quantum-cryptography",
+    "pqc",
+    "nist-fips-203",
+    "kyber",
+    "dilithium",
+    "tpm2",
+    "privacy-pass",
+    "hardware-attestation",
+    "memory-sanitization",
+    "browser-security"
+  ],
+  "author": "Shravan Sumanth",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
